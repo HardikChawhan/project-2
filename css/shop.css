@@ -1,0 +1,98 @@
+
+.features-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center; /* Center align the product cards */
+    padding: 20px;
+}
+
+.item {
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.item-wrapper {
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.item-img img {
+    width: 100%;
+    height: auto;
+}
+
+.item-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.item-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.item-subtitle {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+    color: #3b3b3b;
+}
+
+.item-text {
+    font-size: 1rem;
+    margin: 0 0 10px;
+    color: #777;
+}
+
+.item-footer {
+    margin-top: 1.87rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffea00;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded button */
+    text-align: center;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition on hover */
+}
+
+.btn:hover {
+    background-color: #fff157;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+@media (min-width: 576px) {
+    .item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .item {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .item {
+        width: 25%; /* 4 products per row */
+    }
+}

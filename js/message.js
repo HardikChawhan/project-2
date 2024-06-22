@@ -1,16 +1,13 @@
-function sendWhatsAppMessage(productName) {
-    // WhatsApp number
-    const whatsappNumber = "917038012077";  // Note: Removed the "+" sign
+function sendWhatsAppMessage(productName , sizeDropdownID) {
+    const whatsappNumber = "917038012077"; 
 
-    // Construct message with product details
-    const message = "Hi, I'm interested in buying this product:\n" + productName;
+    const size = document.getElementById(sizeDropdownID).value;
 
-    // Encode message for URL
+    const message = `Hi, I'm interested in buying this product:\n${productName} \nSize: ${size}`;
+
     const encodedMessage = encodeURIComponent(message);
 
-    // Construct WhatsApp URL
     const whatsappUrl = "https://wa.me/" + whatsappNumber + "?text=" + encodedMessage;
 
-    // Redirect to WhatsApp
     window.open(whatsappUrl, '_blank');
 }

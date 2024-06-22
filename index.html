@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="images/photo-1413847394921-b259543f4872.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="description"
         content="Discover the latest collection of stylish and comfortable hoodies for every occasion. Explore our wide range of designs and colors.">
     <title>Stylish Hoodies Collection</title>
-    <link rel="stylesheet" href="css/mobirise2.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -28,24 +27,29 @@
     <link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
 
     <style>
-        *{
+        * {
             scroll-behavior: smooth;
         }
+
         .navbar-fixed-top {
             top: auto;
         }
+
         .half-font-size {
             font-size: 50%;
         }
-        #center{
+
+        #center {
             display: flex;
             justify-content: center;
         }
+
         .features-image {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .row {
             display: flex;
             flex-wrap: wrap;
@@ -110,7 +114,7 @@
             background-color: #fff157;
             transform: scale(1.05);
         }
-        
+
         .discover-btn {
             border: 2px solid #fff;
             padding: 20px 32px;
@@ -134,6 +138,28 @@
                 width: 33.33%;
             }
         }
+        
+        .dropdown {
+            font-size: 1rem;
+        }
+
+        select {
+            padding: 5px;
+            font-size: 1rem;
+            border: 3px solid #FFEA00;
+            /* background-color: #FFEA00; */
+            border-radius: 5px;
+        }
+
+        .size {
+            margin-top: 10px;
+        }
+
+        .btn-style {
+            margin-left: 0px;
+            margin-top: 0.6rem;
+        }
+
     </style>
 </head>
 
@@ -166,7 +192,8 @@
                             <a class="nav-link link text-black display-4" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="#popular-pic-dir" aria-expanded="false">Shop</a>
+                            <a class="nav-link link text-black display-4" href="hoodie.html" target="_blank"
+                                aria-expanded="false">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link link text-black display-4" href="#contact-us-dir">Contact</a>
@@ -174,15 +201,14 @@
                     </ul>
 
                     <div class="navbar-buttons mbr-section-btn">
-                        <a class="btn btn-primary display-4" href="#popular-pic-dir">Explore</a>
+                        <a class="btn btn-primary display-4" href="#product-list-9-ufK1LVCPTs">Explore</a>
                     </div>
                 </div>
             </div>
         </nav>
     </section>
 
-    <section data-bs-version="5.1" class="header18 cid-ufK1LVBdFn mbr-fullscreen"
-        data-bg-video="./Video/hoodie1.mp4">
+    <section data-bs-version="5.1" class="header18 cid-ufK1LVBdFn mbr-fullscreen" data-bg-video="./Video/hoodie1.mp4">
 
         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
         <div class="container-fluid">
@@ -195,7 +221,7 @@
                     <p class="mbr-fonts-style mbr-text mbr-white mb-5 display-7">Where Comfort Meets Style - Dive into a
                         World of Cozy and Chic Hoodies!</p>
                     <div class="mbr-section-btn">
-                        <a class="discover-btn btn-white-outline display-7" href="#">Discover</a>
+                        <a class="discover-btn btn-white-outline display-7" href="#call-to-action-3-ufK1LVCBtG">Discover</a>
                     </div>
                 </div>
             </div>
@@ -213,7 +239,7 @@
                             </h4>
 
                             <div class="mbr-section-btn mt-4">
-                                <a class="btn btn-primary display-4" href="#popular-pic-dir">Shop</a>
+                                <a class="btn btn-primary display-4" href="hoodie.html" target="_blank">Shop</a>
                             </div>
                         </div>
                     </div>
@@ -222,12 +248,12 @@
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="pricing02 cid-ufK1LVCPTs" id="product-list-9-ufK1LVCPTs" >
-        <div class="container-fluid" id="popular-pic-dir">
+    <section data-bs-version="5.1" class="pricing02 cid-ufK1LVCPTs" id="product-list-9-ufK1LVCPTs">
+        <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 content-head">
                     <div class="mbr-section-head mb-5">
-                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2" >
+                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
                             <strong>Popular Picks</strong>
                         </h4>
                     </div>
@@ -243,8 +269,17 @@
                             <h5 class="item-title"><strong>Cosmic Comfort Hoodie</strong></h5>
                             <h6 class="item-subtitle">₹1200</h6>
                             <p class="item-text">Stay Warm and Stylish with this Galaxy-Inspired Hoodie</p>
+                            <div class="size">
+                                <select id="size-cosmic-comfort-hoodie" name="sizes">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>
                             <div class="item-footer">
-                                <a onclick="sendWhatsAppMessage('Cosmic Comfort Hoodie')" class="btn item-btn">Buy Now</a>
+                                <a onclick="sendWhatsAppMessage('Cosmic Comfort Hoodie','size-cosmic-comfort-hoodie')" class="btn item-btn btn-style">Buy
+                                    Now</a>
                             </div>
                         </div>
                     </div>
@@ -259,8 +294,16 @@
                             <h5 class="item-title"><strong>Oversized t-shirts</strong></h5>
                             <h6 class="item-subtitle">₹1200</h6>
                             <p class="item-text">Lounge in Style with Our Trendy Oversized Tees</p>
+                            <div class="size">
+                                <select id="size-oversize-t-shirts" name="sizes">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>
                             <div class="item-footer">
-                                <a onclick="sendWhatsAppMessage('Oversized t-shirts')" class="btn item-btn">Buy Now</a>
+                                <a onclick="sendWhatsAppMessage('Oversized t-shirts','size-oversize-t-shirts')" class="btn item-btn">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -275,8 +318,16 @@
                             <h5 class="item-title"><strong>Custom t-shirts</strong></h5>
                             <h6 class="item-subtitle">₹1200</h6>
                             <p class="item-text">Stand Out with Unique, Custom-Designed T-Shirts</p>
+                            <div class="size">
+                                <select id="size-custom-t-shirts" name="sizes">
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </div>
                             <div class="item-footer">
-                                <a onclick="sendWhatsAppMessage('Custom t-shirts')" class="btn item-btn">Buy Now</a>
+                                <a onclick="sendWhatsAppMessage('Custom t-shirts','size-custom-t-shirts')" class="btn item-btn">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -295,38 +346,37 @@
             <div class="grid-container">
                 <div class="grid-container-1" style="transform: translate3d(-200px, 0px, 0px);">
                     <div class="grid-item">
-                        <img src="images/photo-1483726234545-481d6e880fc6.jpeg" >
+                        <img src="images/photo-1483726234545-481d6e880fc6.jpeg">
                     </div>
                     <div class="grid-item">
-                        <img src="images/photo-1590103514500-5abdbbd4bf79.jpeg" >
+                        <img src="images/photo-1590103514500-5abdbbd4bf79.jpeg">
                     </div>
                     <div class="grid-item">
-                        <img src="images/1.jpeg" >
+                        <img src="images/1.jpeg">
                     </div>
                     <div class="grid-item">
-                        <img src="images/photo-1519575993697-5eb7f0dcda98.jpeg" >
+                        <img src="images/photo-1519575993697-5eb7f0dcda98.jpeg">
                     </div>
                 </div>
                 <div class="grid-container-2" style="transform: translate3d(-70px, 0px, 0px);">
                     <div class="grid-item">
-                        <img src="images/2.jpeg" >
+                        <img src="images/2.jpeg">
                     </div>
                     <div class="grid-item">
-                        <img src="images/photo-1512401035442-e40d840cfdd0.jpeg" >
+                        <img src="images/photo-1512401035442-e40d840cfdd0.jpeg">
                     </div>
                     <div class="grid-item">
-                        <img src="images/photo-1635796220037-eaa23d73e521.jpeg" >
+                        <img src="images/photo-1635796220037-eaa23d73e521.jpeg">
                     </div>
                     <div class="grid-item">
-                        <img src="images/photo-1558547484-ecee6e67c86b.jpeg" >
+                        <img src="images/photo-1558547484-ecee6e67c86b.jpeg">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="header18 cid-ufK1LVDuhY mbr-fullscreen"
-        data-bg-video="./Video/hoodie2.mp4">
+    <section data-bs-version="5.1" class="header18 cid-ufK1LVDuhY mbr-fullscreen" data-bg-video="./Video/hoodie2.mp4">
         <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
         <div class="container-fluid">
             <div class="row">
@@ -629,8 +679,7 @@
                 <div class="item features-image col-12 col-md-6 col-lg-3">
                     <div class="item-wrapper">
                         <div class="item-img mb-3">
-                            <img src="images/photo-1456327102063-fb5054efe647.jpeg"
-                                title="">
+                            <img src="images/photo-1456327102063-fb5054efe647.jpeg" title="">
                         </div>
                         <div class="item-content align-left">
                             <h5 class="item-title mbr-fonts-style display-5 top">
@@ -643,8 +692,8 @@
                 <div class="item features-image col-12 col-md-6 col-lg-3">
                     <div class="item-wrapper">
                         <div class="item-img mb-3">
-                            <img src="images/photo-1589156191108-c762ff4b96ab.jpeg"
-                                title="" data-slide-to="3" data-bs-slide-to="3">
+                            <img src="images/photo-1589156191108-c762ff4b96ab.jpeg" title="" data-slide-to="3"
+                                data-bs-slide-to="3">
                         </div>
                         <div class="item-content align-left">
                             <h5 class="item-title mbr-fonts-style display-5 top">
@@ -721,16 +770,19 @@
                     <form action="https://formsubmit.co/hardikvedant69@gmail.com" method="POST">
                         <div class="dragArea row">
                             <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                                <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-2-ufK1LVGsyC">
+                                <input type="text" name="name" placeholder="Name" data-form-field="name"
+                                    class="form-control" value="" id="name-contact-form-2-ufK1LVGsyC">
                             </div>
                             <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                                <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-2-ufK1LVGsyC">
+                                <input type="email" name="email" placeholder="Email" data-form-field="email"
+                                    class="form-control" value="" id="email-contact-form-2-ufK1LVGsyC">
                             </div>
                             <div class="col-12 form-group mb-3" data-for="textarea">
-                                <textarea name="message" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-form-2-ufK1LVGsyC"></textarea>
+                                <textarea name="message" placeholder="Message" data-form-field="textarea"
+                                    class="form-control" id="textarea-contact-form-2-ufK1LVGsyC"></textarea>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
-                                <button type="submit"  class="btn btn-primary display-7">Send</button>
+                                <button type="submit" class="btn btn-primary display-7">Send</button>
                             </div>
                         </div>
                     </form>
@@ -812,7 +864,7 @@
             once: true
         });
     </script>
-    
+
 </body>
 
 </html>

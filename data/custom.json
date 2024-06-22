@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Cosmic Comfort Hoodie",
+        "price": "₹1200",
+        "description": "Stay Warm and Stylish with this Galaxy-Inspired Hoodie",
+        "size":"Cosmic-Comfort-Hoodie",
+        "image": "images/1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Oversized t-shirts",
+        "price": "₹1200",
+        "description": "Lounge in Style with Our Trendy Oversized Tees",
+        "size":"oversize-t-shirts",
+        "image": "images/2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Custom t-shirts",
+        "price": "₹1200",
+        "description": "Stand Out with Unique, Custom-Designed T-Shirts",
+        "size":"custom-t-shirts",
+        "image": "images/3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Cosmic Comfort Hoodie",
+        "price": "₹1200",
+        "description": "Stay Warm and Stylish with this Galaxy-Inspired Hoodie",
+        "size":"Cosmic-Comfort-Hoodie",
+        "image": "images/1.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Oversized t-shirts",
+        "price": "₹1200",
+        "description": "Lounge in Style with Our Trendy Oversized Tees",
+        "size":"oversize-t-shirts",
+        "image": "images/2.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Custom t-shirts",
+        "price": "₹1200",
+        "description": "Stand Out with Unique, Custom-Designed T-Shirts",
+        "size":"custom-t-shirts",
+        "image": "images/3.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Cosmic Comfort Hoodie",
+        "price": "₹1200",
+        "description": "Stay Warm and Stylish with this Galaxy-Inspired Hoodie",
+        "size":"Cosmic-Comfort-Hoodie",
+        "image": "images/1.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Oversized t-shirts",
+        "price": "₹1200",
+        "description": "Lounge in Style with Our Trendy Oversized Tees",
+        "size":"oversize-t-shirts",
+        "image": "images/2.jpeg"
+    }
+]
