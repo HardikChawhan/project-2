@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 </select>
                             </div>
                             <div class="item-footer">
-                                <a onclick="sendWhatsAppMessage('${product.name}','size-${product.size}')" class="btn item-btn">Buy Now</a>
+                                <a onclick="sendWhatsAppMessage('${product.name}','size-${product.size}')" class="btn item-btn btn-style">Buy Now</a>
                             </div>
                         </div>
                     </div>
